@@ -5,23 +5,30 @@
       "Bash(python scripts/*)",
       "Bash(git *)",
       "Bash(git -C *)",
-      "WebFetch(domain:github.com)",
-      "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" add -A)",
-      "Bash(git -C C:/Users/tomma/my-ai-project/LLMObsidian commit -m ' *)",
-      "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" push)"
+      "WebFetch(domain:github.com)"
     ]
   },
   "hooks": {
     "SessionStart": [
       {
         "matcher": "",
-        "command": "echo '=== SESSION CONTEXT ===' && echo '' && echo '--- Ultimi ingest (log.md tail) ---' && tail -20 \"C:/Users/tomma/my-ai-project/LLMObsidian/wiki/log.md\" 2>/dev/null || echo '(log non disponibile)' && echo '' && echo '--- Domande aperte ([DA VERIFICARE]) ---' && grep -rh '\\[DA VERIFICARE\\]' \"C:/Users/tomma/my-ai-project/LLMObsidian/wiki/\" 2>/dev/null | head -10 || echo '(nessuna)' && echo '' && echo '--- Trascritti raw ---' && ls \"C:/Users/tomma/my-ai-project/LLMObsidian/raw/\" 2>/dev/null || echo '(nessuno)' && echo '' && echo '=== END CONTEXT ==='"
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '=== SESSION CONTEXT ===' && echo '' && echo '--- Ultimi ingest (log.md tail) ---' && tail -20 \"C:/Users/tomma/my-ai-project/LLMObsidian/wiki/log.md\" 2>/dev/null || echo '(log non disponibile)' && echo '' && echo '--- Domande aperte ([DA VERIFICARE]) ---' && grep -rh '\\[DA VERIFICARE\\]' \"C:/Users/tomma/my-ai-project/LLMObsidian/wiki/\" 2>/dev/null | head -10 || echo '(nessuna)' && echo '' && echo '--- Trascritti raw ---' && ls \"C:/Users/tomma/my-ai-project/LLMObsidian/raw/\" 2>/dev/null || echo '(nessuno)' && echo '' && echo '=== END CONTEXT ==='"
+          }
+        ]
       }
     ],
-    "SessionStop": [
+    "SessionEnd": [
       {
         "matcher": "",
-        "command": "cd \"C:/Users/tomma/my-ai-project/LLMObsidian\" && python scripts/convert-links.py 2>&1 && python scripts/convert-dataview.py 2>&1 && if ! git diff --quiet 2>/dev/null || ! git diff --cached --quiet 2>/dev/null; then git add -A && git commit -m \"auto publish $(date +%Y-%m-%d)\" && git push; fi"
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"C:/Users/tomma/my-ai-project/LLMObsidian\" && python scripts/convert-links.py 2>&1 && python scripts/convert-dataview.py 2>&1 && if ! git diff --quiet 2>/dev/null || ! git diff --cached --quiet 2>/dev/null; then git add -A && git commit -m \"auto publish $(date +%Y-%m-%d)\" && git push; fi"
+          }
+        ]
       }
     ]
   }
