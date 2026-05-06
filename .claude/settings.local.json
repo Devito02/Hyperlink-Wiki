@@ -1,37 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx skills@latest *)",
-      "Bash(mv regole/campo-dei-paradigmi.md cosmologia/)",
-      "Bash(mv regole/dominio.md cosmologia/)",
-      "Bash(mv regole/indice-di-rarefazione.md cosmologia/)",
-      "Bash(mv concetti/geometria-del-campo.md cosmologia/)",
-      "Bash(mv concetti/spazio-interdominio.md cosmologia/)",
-      "Bash(mv regola.md cosmologia.md)",
-      "Bash(cp cosmologia.md magia.md)",
-      "Bash(cp cosmologia.md storia.md)",
-      "Bash(mv concetto.md filosofia.md)",
-      "Bash(mv evento.md storia.md)",
-      "Bash(python3 *)",
       "Bash(python *)",
-      "Bash(python scripts/convert-links.py)",
-      "Bash(python scripts/convert-dataview.py)",
-      "Bash(python -c \"import yaml; print\\('yaml OK'\\)\")",
-      "Bash(git -C *)",
-      "Bash(head *)",
-      "Bash(tail *)",
-      "Bash(grep *)",
-      "Bash(ls *)",
-      "Bash(find *)",
-      "Bash(cat *)",
-      "Bash(date *)",
-      "Bash(echo *)",
-      "Bash(touch *)",
+      "Bash(python scripts/*)",
       "Bash(git *)",
+      "Bash(git -C *)",
+      "WebFetch(domain:github.com)",
       "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" add -A)",
       "Bash(git -C C:/Users/tomma/my-ai-project/LLMObsidian commit -m ' *)",
-      "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" push)",
-      "WebFetch(domain:github.com)"
+      "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" push)"
     ]
   },
   "hooks": {

@@ -4,6 +4,8 @@ description: Wiki health-check agent. Verifies frontmatter, links, orphans, depr
 tools: [Read, Grep, Glob]
 ---
 
+**CRITICAL: Use ONLY Read, Grep, Glob tools. Never use Bash. These three tools cover all health-check needs without triggering permission prompts.**
+
 # Check Agent
 
 ## Task

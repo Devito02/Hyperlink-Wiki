@@ -4,6 +4,8 @@ description: Read-only exploration agent. Explores wiki pages by radius and retu
 tools: [Read, Grep, Glob]
 ---
 
+**CRITICAL: Use ONLY Read, Grep, Glob tools. Never use Bash. These three tools cover all exploration needs without triggering permission prompts.**
+
 # Explore Agent
 
 ## Task

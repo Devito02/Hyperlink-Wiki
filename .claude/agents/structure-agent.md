@@ -4,6 +4,8 @@ description: Structure agent. Proposes new modules and pathways based on recent 
 tools: [Read, Grep, Glob]
 ---
 
+**CRITICAL: Use ONLY Read, Grep, Glob tools. Never use Bash. These three tools cover all structure analysis needs without triggering permission prompts.**
+
 # Structure Agent
 
 ## Task
