@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx skills@latest *)",
+      "Bash(mv regole/campo-dei-paradigmi.md cosmologia/)",
+      "Bash(mv regole/dominio.md cosmologia/)",
+      "Bash(mv regole/indice-di-rarefazione.md cosmologia/)",
+      "Bash(mv concetti/geometria-del-campo.md cosmologia/)",
+      "Bash(mv concetti/spazio-interdominio.md cosmologia/)",
+      "Bash(mv regola.md cosmologia.md)",
+      "Bash(cp cosmologia.md magia.md)",
+      "Bash(cp cosmologia.md storia.md)",
+      "Bash(mv concetto.md filosofia.md)",
+      "Bash(mv evento.md storia.md)",
+      "Bash(python3 *)",
+      "Bash(python *)",
+      "Bash(python scripts/convert-links.py)",
+      "Bash(python scripts/convert-dataview.py)",
+      "Bash(python -c \"import yaml; print\\('yaml OK'\\)\")",
+      "Bash(git -C *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(cat *)",
+      "Bash(date *)",
+      "Bash(echo *)",
+      "Bash(touch *)",
+      "Bash(git *)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "command": "echo '=== SESSION CONTEXT ===' && echo '' && echo '--- Ultimi ingest (log.md tail) ---' && tail -20 \"C:/Users/tomma/my-ai-project/LLMObsidian/wiki/log.md\" 2>/dev/null || echo '(log non disponibile)' && echo '' && echo '--- Domande aperte ([DA VERIFICARE]) ---' && grep -rh '\\[DA VERIFICARE\\]' \"C:/Users/tomma/my-ai-project/LLMObsidian/wiki/\" 2>/dev/null | head -10 || echo '(nessuna)' && echo '' && echo '--- Trascritti raw ---' && ls \"C:/Users/tomma/my-ai-project/LLMObsidian/raw/\" 2>/dev/null || echo '(nessuno)' && echo '' && echo '=== END CONTEXT ==='"
+      }
+    ],
+    "SessionStop": [
+      {
+        "matcher": "",
+        "command": "cd \"C:/Users/tomma/my-ai-project/LLMObsidian\" && python scripts/convert-links.py 2>&1 && python scripts/convert-dataview.py 2>&1 && cd _github-output && if ! git diff --quiet 2>/dev/null || ! git diff --cached --quiet 2>/dev/null; then git add -A && git commit -m \"auto publish $(date +%Y-%m-%d)\" && git push; fi"
+      }
+    ]
+  }
+}

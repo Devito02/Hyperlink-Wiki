@@ -1,0 +1,25 @@
+**Interlocutore 1:** Dopo il miscelamento del campo magico, queste divinità si erano spostate su una quarta dimensione. Ora, con il risistemamento e la chiusura di queste falle attraverso le centrali, tornano nella terza dimensione. Ovviamente, sempre la stessa teoria: divinità più grosse e più potenti ci mettono più tempo a passare da una dimensione all’altra rispetto a divinità minori.
+
+**Interlocutore 2:** E che secondo me i canali, tra virgolette, aperti sono attraverso la tecnologia. La tecnologia apre questi canali. Però sono canali apparenti, capisci che intendo?
+
+**Interlocutore 1:** Sì, sono canali che in realtà non vengono aperti apposta. Il risaldare, ad esempio, un buco apre uno spazio e permette a una divinità di passare. Più buchi vengono saldati, più divinità forti possono passare.
+
+**Interlocutore 2:** Esatto. E la questione secondo me interessante è che dall’altra parte, contemporaneamente, il ritorno delle divinità permette al contempo stesso una rimmaginazione collettiva che piega il campo magico. Ed esattamente come vale per le creature fatate che si manifestano, il campo magico genera a sua volta delle divinità: la magia pura che si incarna.
+
+**Interlocutore 1:** Sì, e queste sono le divinità tradizionali che noi abbiamo nel nostro immaginario collettivo, quindi Shiva, Odino, Thor, eccetera. Appaiono nel mondo, più che hanno magari tutti lo stesso paradigma. Ti immagini che roba? Se tipo in India incominciano ad apparire, che ne so, adesso c’hai al governo divinità minori locali. Tipo nel consiglio locale delle divinità hai delle divinità che sono apparse, si sono incarnate e dicono: “Ah raga, guardate, vi faccio questo report utilizzando le mie capacità”.
+
+**Interlocutore 2:** Esatto. E la roba è... vengono contemporaneamente. Nel senso, non c’è uno sbilanciamento tra divinità che arrivano e divinità che nascono, per un fatto che ovviamente più una divinità è potente, più il campo magico fa fatica a organizzarsi in modo da generarla.
+
+**Interlocutore 1:** Esatto. Per cui nasceranno prima le divinità minori e poi le divinità maggiori. Le divinità minori sono una sorta di manifestazioni minori delle divinità maggiori, in una certa misura.
+
+**Interlocutore 2:** Sì, sono diciamo concetti più deboli. Per quello che all’inizio nasce tutta la cultura pop. C’è un backward di quelle generate: partono dalle cose più recenti e tornano indietro a divinità ancestrali come possono essere la Madre Terra, Urano, il Caos. A un certo punto ipoteticamente, se noi portassimo avanti questo mondo molto a lungo, potremmo avere fondamentalmente una sorta di principio originale. In realtà non serve portarlo avanti così tanto a lungo perché noi siamo agli inizi, ma molto per il fatto che tu devi pensare la tecnologia come si sta evolvendo: se devi dargli una funzione esponenziale. Se già negli anni '90 hanno iniziato a chiudere i buchi, ne verranno chiusi sempre di più. Quindi in realtà bastano una quarantina d'anni nel nostro mondo perché tutti i buchi siano chiusi e facciano apparire divinità incredibili.
+
+**Interlocutore 1:** Esattamente. Secondo me è più interessante un periodo di transizione.
+
+**Interlocutore 2:** Sì, il periodo di transizione è quello dove viviamo noi. Ed è bello perché succedono cose strane ma non è ancora simbolico, metafisico e solenne. Però tieni conto che è esponenziale. Non si sono ancora manifestate magari le divinità maggiori tipo il Caos primordiale, Nyx, Shiva... no, Shiva forse sì, ma Brahma non si è ancora manifestato.
+
+**Interlocutore 1:** Sì, assolutamente. E la questione è che Dio stesso, il Dio cristiano magari, non si è ancora... quello lì in realtà lasciamolo da parte. Dio, Allah, Yahweh, gli dei monoteisti li lasciamo da parte perché spanculano tutto il mondo.
+
+**Interlocutore 2:** Ma in realtà secondo me anche lì abbiamo una sorta di dovere a questo punto di metterli e di affrontarli. Nell’affrontarli verrebbero fuori delle cose veramente interessanti. Sai come verrebbero affrontati per me? Come in realtà sono stati creati. Cosa sono nell’effettivo gli dei monoteisti? Gli dei monoteisti sono un agglomerato di tutte le altre divinità. Sono un’interpretazione che è stata data per riempire nello spazio in cui le divinità se ne sono andate. Per riempire quella mancanza di divinità, hanno agglomerato tutti i concetti di divinità che avevano e hanno generato le tre religioni principali che si iniziano a diffondere verso la fine dell’età antica. Non è istantanea come cosa la miscelazione del campo magico e lo svanire. Una divinità se ne andava e veniva aggiunto un pezzo a una che rimaneva, finché però quella che rimaneva non se ne andava e restava solo un guscio vuoto.
+
+**Interlocutore 1:** Ok, super interessante. E i vari popoli hanno detto: “No, questo è Dio, questo è Allah”. Ma infatti quella lì è comunque una forma di tecnologia
