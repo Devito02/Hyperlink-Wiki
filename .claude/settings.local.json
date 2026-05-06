@@ -30,7 +30,8 @@
       "Bash(git *)",
       "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" add -A)",
       "Bash(git -C C:/Users/tomma/my-ai-project/LLMObsidian commit -m ' *)",
-      "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" push)"
+      "Bash(git -C \"C:/Users/tomma/my-ai-project/LLMObsidian\" push)",
+      "WebFetch(domain:github.com)"
     ]
   },
   "hooks": {

@@ -17,6 +17,7 @@ Agent custom in `.claude/agents/` (spawnati come sub-agent):
 |---|---|---|
 | `explore-agent.md` | Esplorazione read-only | Raggio-1 su pagina o percorso pathway |
 | `check-agent.md` | Health-check | Frontmatter, link, orfane, deprecate, claim |
+| `structure-agent.md` | Struttura | Propone moduli e pathway dopo accumulo ingest |
 
 ## Ruolo
 
